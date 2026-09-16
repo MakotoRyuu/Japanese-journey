@@ -1,0 +1,27 @@
+# 自动识别文本，检出时统一使用 LF 换行
+* text=auto eol=lf
+
+# 讲义、图片与媒体不进行文本差异比较或合并
+*.[pP][dD][fF] binary
+*.[dD][oO][cC] binary
+*.[dD][oO][cC][xX] binary
+*.[pP][pP][tT] binary
+*.[pP][pP][tT][xX] binary
+*.[xX][lL][sS] binary
+*.[xX][lL][sS][xX] binary
+*.odt binary
+*.odp binary
+*.ods binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.heic binary
+*.mp3 binary
+*.m4a binary
+*.wav binary
+*.mp4 binary
+*.mov binary
+*.zip binary
+*.7z binary
